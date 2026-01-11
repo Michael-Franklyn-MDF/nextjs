@@ -1,6 +1,582 @@
-[00:00:01.623] Server  LOG     ✓ Ready in 997ms
-[00:00:38.531] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:39.184] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:39.902] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:35.481] Server  LOG     ✓ Compiled in 656ms
-[00:01:39.585] Server  LOG     ✓ Compiled in 41ms
+[00:00:01.709] Server  LOG     ✓ Ready in 1051ms
+[00:00:06.597] Server  ERROR   ⨯ ./app/page.js:21:10
+Ecmascript file had an error
+  19 | }
+  20 |  
+> 21 | function HomePage() {
+     |          ^^^^^^^^
+  22 |   const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
+  23 |  
+  24 |   return (
+
+the name `HomePage` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+
+[00:00:06.610] Server  ERROR   ⨯ ./app/page.js:21:10
+Ecmascript file had an error
+  19 | }
+  20 |  
+> 21 | function HomePage() {
+     |          ^^^^^^^^
+  22 |   const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
+  23 |  
+  24 |   return (
+
+the name `HomePage` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+
+[00:00:08.652] Browser ERROR   uncaughtError: Error: ./app/page.js:21:10
+Ecmascript file had an error
+  19 | }
+  20 |  
+> 21 | function HomePage() {
+     |          ^^^^^^^^
+  22 |   const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
+  23 |  
+  24 |   return (
+
+the name `HomePage` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+
+[00:00:08.878] Browser ERROR   ./app/page.js:21:10
+Ecmascript file had an error
+  19 | }
+  20 |  
+> 21 | function HomePage() {
+     |          ^^^^^^^^
+  22 |   const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
+  23 |  
+  24 |   return (
+
+the name `HomePage` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:00:08.878] Browser ERROR   ./app/page.js:21:10
+Ecmascript file had an error
+  19 | }
+  20 |  
+> 21 | function HomePage() {
+     |          ^^^^^^^^
+  22 |   const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
+  23 |  
+  24 |   return (
+
+the name `HomePage` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:00:08.919] Server  ERROR   ⨯ ./app/page.js:21:10
+Ecmascript file had an error
+  19 | }
+  20 |  
+> 21 | function HomePage() {
+     |          ^^^^^^^^
+  22 |   const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
+  23 |  
+  24 |   return (
+
+the name `HomePage` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+
+[00:00:09.159] Browser ERROR   uncaughtError: Error: ./app/page.js:21:10
+Ecmascript file had an error
+  19 | }
+  20 |  
+> 21 | function HomePage() {
+     |          ^^^^^^^^
+  22 |   const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
+  23 |  
+  24 |   return (
+
+the name `HomePage` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+
+[00:00:09.331] Browser ERROR   ./app/page.js:21:10
+Ecmascript file had an error
+  19 | }
+  20 |  
+> 21 | function HomePage() {
+     |          ^^^^^^^^
+  22 |   const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
+  23 |  
+  24 |   return (
+
+the name `HomePage` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:00:09.332] Browser ERROR   ./app/page.js:21:10
+Ecmascript file had an error
+  19 | }
+  20 |  
+> 21 | function HomePage() {
+     |          ^^^^^^^^
+  22 |   const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
+  23 |  
+  24 |   return (
+
+the name `HomePage` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:00:09.483] Browser ERROR   ./app/page.js:21:10
+Ecmascript file had an error
+  19 | }
+  20 |  
+> 21 | function HomePage() {
+     |          ^^^^^^^^
+  22 |   const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
+  23 |  
+  24 |   return (
+
+the name `HomePage` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:00:09.495] Server  ERROR   ⨯ ./app/page.js:21:10
+Ecmascript file had an error
+  19 | }
+  20 |  
+> 21 | function HomePage() {
+     |          ^^^^^^^^
+  22 |   const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
+  23 |  
+  24 |   return (
+
+the name `HomePage` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+
+[00:00:09.741] Browser ERROR   uncaughtError: Error: ./app/page.js:21:10
+Ecmascript file had an error
+  19 | }
+  20 |  
+> 21 | function HomePage() {
+     |          ^^^^^^^^
+  22 |   const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
+  23 |  
+  24 |   return (
+
+the name `HomePage` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+
+[00:00:09.879] Browser ERROR   ./app/page.js:21:10
+Ecmascript file had an error
+  19 | }
+  20 |  
+> 21 | function HomePage() {
+     |          ^^^^^^^^
+  22 |   const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
+  23 |  
+  24 |   return (
+
+the name `HomePage` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:00:09.879] Browser ERROR   ./app/page.js:21:10
+Ecmascript file had an error
+  19 | }
+  20 |  
+> 21 | function HomePage() {
+     |          ^^^^^^^^
+  22 |   const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
+  23 |  
+  24 |   return (
+
+the name `HomePage` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:00:49.179] Browser ERROR   ./app/page.js:21:25
+Ecmascript file had an error
+  19 | }
+  20 |  
+> 21 | export default function HomePage() {
+     |                         ^^^^^^^^
+  22 |   const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
+  23 |  
+  24 |   return (
+
+the name `HomePage` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:00:49.179] Browser ERROR   ./app/page.js:21:1
+Ecmascript file had an error
+  19 | }
+  20 |  
+> 21 | export default function HomePage() {
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 22 |   const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 23 |  
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 24 |   return (
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 25 |     <div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 26 |       <Header title="Develop. Preview. Ship." />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 27 |       <ul>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 28 |         {names.map((name) => (
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 29 |           <li key={name}>{name}</li>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 30 |         ))}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 31 |       </ul>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 32 |       <LikeButton />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 33 |       </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 34 |     );
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 35 |   }
+     | ^^^^
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:00:52.083] Server  ERROR   ⨯ ./app/page.js:21:25
+Ecmascript file had an error
+  19 | }
+  20 |  
+> 21 | export default function HomePage() {
+     |                         ^^^^^^^^
+  22 |   const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
+  23 |  
+  24 |   return (
+
+the name `HomePage` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+
+
+./app/page.js:21:1
+Ecmascript file had an error
+  19 | }
+  20 |  
+> 21 | export default function HomePage() {
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 22 |   const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 23 |  
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 24 |   return (
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 25 |     <div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 26 |       <Header title="Develop. Preview. Ship." />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 27 |       <ul>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 28 |         {names.map((name) => (
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 29 |           <li key={name}>{name}</li>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 30 |         ))}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 31 |       </ul>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 32 |       <LikeButton />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 33 |       </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 34 |     );
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 35 |   }
+     | ^^^^
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+
+[00:00:52.550] Browser ERROR   uncaughtError: Error: ./app/page.js:21:25
+Ecmascript file had an error
+  19 | }
+  20 |  
+> 21 | export default function HomePage() {
+     |                         ^^^^^^^^
+  22 |   const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
+  23 |  
+  24 |   return (
+
+the name `HomePage` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+
+
+[00:00:52.766] Browser ERROR   ./app/page.js:21:25
+Ecmascript file had an error
+  19 | }
+  20 |  
+> 21 | export default function HomePage() {
+     |                         ^^^^^^^^
+  22 |   const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
+  23 |  
+  24 |   return (
+
+the name `HomePage` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:00:52.766] Browser ERROR   ./app/page.js:21:1
+Ecmascript file had an error
+  19 | }
+  20 |  
+> 21 | export default function HomePage() {
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 22 |   const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 23 |  
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 24 |   return (
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 25 |     <div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 26 |       <Header title="Develop. Preview. Ship." />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 27 |       <ul>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 28 |         {names.map((name) => (
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 29 |           <li key={name}>{name}</li>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 30 |         ))}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 31 |       </ul>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 32 |       <LikeButton />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 33 |       </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 34 |     );
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 35 |   }
+     | ^^^^
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:00:52.766] Browser ERROR   ./app/page.js:21:25
+Ecmascript file had an error
+  19 | }
+  20 |  
+> 21 | export default function HomePage() {
+     |                         ^^^^^^^^
+  22 |   const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
+  23 |  
+  24 |   return (
+
+the name `HomePage` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
+[00:00:52.766] Browser ERROR   ./app/page.js:21:1
+Ecmascript file had an error
+  19 | }
+  20 |  
+> 21 | export default function HomePage() {
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 22 |   const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 23 |  
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 24 |   return (
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 25 |     <div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 26 |       <Header title="Develop. Preview. Ship." />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 27 |       <ul>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 28 |         {names.map((name) => (
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 29 |           <li key={name}>{name}</li>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 30 |         ))}
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 31 |       </ul>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 32 |       <LikeButton />
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 33 |       </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 34 |     );
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 35 |   }
+     | ^^^^
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.js [Client Component Browser]
+    ./app/page.js [Server Component]
+
+  Client Component SSR:
+    ./app/page.js [Client Component SSR]
+    ./app/page.js [Server Component]
